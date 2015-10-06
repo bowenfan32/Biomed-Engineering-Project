@@ -1,0 +1,136 @@
+h1 {
+    font-size: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+body {
+    font-family: Arial;
+}
+
+#header {
+    background-color: #bce774;
+    height: 80px;
+    width: 100%;
+}
+
+.container {
+    height: auto;
+    margin: 0 auto;
+}
+
+#titleArea {
+    font-size: 20pt;
+    width: 500px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    float: left;
+}
+
+#navArea {
+    width: 600px;
+    height: 80px;
+    float: right;
+}
+
+#nav {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#nav a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav li, button {
+    float: left;
+    margin-left: 25px;
+    margin-right: 5px;
+    background-color: #ffffff;
+    padding: 8px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+#feedback{
+    margin-left:20px;
+}
+
+#nav li:hover {
+    background-color: gray;
+}
+
+#mainArea {
+    width: 47%;
+    padding-left: 20px;
+    float: left;
+}
+
+#mainArea2 {
+    margin-left: 52%;
+    padding-right: 20px;
+}
+
+#mainArea3 {
+    width:51%;
+    padding-left: 20px;
+    float: left;
+}
+
+#mainArea4{
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 53%;
+}
+
+#scoreArea{
+    font-size: 20pt;
+    height: 20px;
+    width: 30%;
+    float: right;
+}
+
+TD {
+    font-family: Arial;
+    font-size: 15pt;
+}
+
+canvas {
+    z-index: -1;
+}
+
+table, th, td {
+    font-size: 15px;
+    table-layout: fixed;
+    word-wrap: break-word;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 25px;
+}
+
+#div1 {
+    float: left;
+    margin: 0;
+    width: 50%;
+    padding-right: 10px;
+}
+
+#div2 {
+    float: left;
+    margin: 0;
+    width: 45%;
+    padding-top: 15px;
+}
+
+
